@@ -7,7 +7,6 @@ OPENAI_API_KEY = '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'
 class Config(object):
     DEBUG = True
     TESTING = False
-
 class DevelopmentConfig(Config):
     SECRET_KEY = "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"
 

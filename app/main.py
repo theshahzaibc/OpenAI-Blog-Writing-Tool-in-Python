@@ -55,5 +55,4 @@ def blogPage():
         if 'genBlog' in request.form:
             prompt = request.form['blogTopic']
             blogArticle = blog.generateBlog(prompt)
-
     return render_template('blog.html', **locals())
