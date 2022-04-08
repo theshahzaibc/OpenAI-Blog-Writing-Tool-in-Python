@@ -45,7 +45,6 @@ def blogSectionsExpended():
         prompt = request.form['blogSection']
         blogT = blog.blogSectionExpander(prompt)
         blogSectionExpanded = blogT
-
     return render_template('expanded.html', **locals())
 
 
